@@ -1,0 +1,208 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER NAV SECTION */
+
+.header-container {
+    padding-bottom: 60px;
+}
+
+.header-container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 20%;
+}
+
+.main-title { 
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+ .header-links {
+   margin-right: 0 auto;
+   font-size: 18px;
+} 
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER CONTENT SECTION */
+
+.header-container-content {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 20%;
+    flex-shrink: 1;
+}
+
+.left-side {
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subtext-container {
+    font-size: 24px;
+}
+
+
+.right-side {
+    width: 100%;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.button1 {
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+/* CARD SECTION */
+.card-section-container {
+    padding-bottom: 60px;
+}
+
+.card-heading {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;  
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card-txt {
+    max-width: 200px;
+    text-align: center;
+    color: #727880;
+}
+
+/* CONTENT SECTION W/ QUOTE */
+.quote-section-container {
+    background-color: #E5E7EB;
+    padding: 90px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+.sign {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* SIGN UP BUTTON */
+.call-container {
+    border-radius: 8px;
+    margin: 60px 120px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 25px 100px;
+}
+
+.call-heading {
+    font-weight: bold;
+    margin: auto;
+}
+
+.call-p {
+    margin-top: 3px;
+}
+
+.button2 {
+    border: 3px solid #f9faf8;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+/*FOOTER*/
+.footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px 200px;
+}
+
+/* Color Styling for page */
+
+.header-container-nav,
+.main-title,
+.button1,
+.card-section-container,
+.call-heading,
+.button2,
+.footer {
+    color: #f9faf8;
+}
+
+.header-links,
+.subtext-container,
+.call-p {
+    color: #e5e7eb;
+}
+
+.header-container,
+.footer {
+    background-color: #1F2937;
+}
+
+.button1,
+.call-container,
+.button2 {
+    background-color: #3882F6;
+}
